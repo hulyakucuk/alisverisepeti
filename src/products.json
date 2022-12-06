@@ -1,0 +1,27 @@
+
+[
+{
+    "id":1,
+    "title":"Kürk Mantolu Madonna",
+    "price":"30",
+    "image":"https://cdn1.dokuzsoft.com/u/olimposyayinlari/img/c/k/u/ku-rk-mantolu-madonna-1605009925.jpg"
+},
+{
+    "id":2,
+    "title":"Suç Ve Ceza",
+    "price":"40",
+    "image":"https://n11scdn.akamaized.net/a1/602_857/04/02/53/44/IMG-108478712950547849.jpg"
+},
+{
+    "id":3,
+    "title":"Sinekli Bakkal",
+    "price":"38",
+    "image":"https://turkiyekitapfuari.com/wp-content/uploads/2022/08/Sinekli-Bakkal.png"
+},
+{
+    "id":4,
+    "title":"Kuyucaklı Yusuf",
+    "price":"35",
+    "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeG2voHwh2PqAbltVCFJP_RSs8www7ylptCw&usqp=CAU"
+}
+]
