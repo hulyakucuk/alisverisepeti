@@ -1,8 +1,6 @@
-import React from 'react'
-import {useState} from "react";
-import basketItem from './BasketItem';
+import React from 'react';
 
-function Product({product,basket,total,money,setBasket}) {
+function Product({product,basket,setBasket}) {
   
 const basketItem = basket.find(item => item.id ===product.id)
 
@@ -35,10 +33,6 @@ const removeBasket = () => {
             }
         
 }
-
-
-
-
     return (
     <>
     <div className='product'>
@@ -61,7 +55,8 @@ const removeBasket = () => {
   width:25%;
     }  
      .product img{
-      width:100%;
+      width:230px;
+      height:300px;
      } 
     .product h6{
       font-size:20px;
@@ -73,11 +68,13 @@ const removeBasket = () => {
     }
     .product .actions{
       display:flex;
+      
       align-items:center;
     }
     .actions button{
       height:40px;
-      padding:0 15px;
+      padding:15px 15px;
+      
       flex:1;
     }
     .actions .buy-btn{
